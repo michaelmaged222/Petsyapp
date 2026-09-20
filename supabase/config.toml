@@ -1,0 +1,17 @@
+[functions.send-email]
+verify_jwt = true
+
+[functions.whatsapp-webhook]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.stripe-checkout]
+verify_jwt = true
+
+[functions.api-v1]
+verify_jwt = false
+
+[functions.invite-teammate]
+verify_jwt = true
